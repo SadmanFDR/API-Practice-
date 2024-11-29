@@ -1,0 +1,36 @@
+.but{
+   @apply flex gap-4 pt-6 
+}
+.but button{
+   @apply text-[16px] px-5 py-2 border-[2px] border-gray-400 rounded-lg transition-all duration-300 hover:border-[#4B4376] hover:shadow-[0px_0px_7px_5px_rgba(0,_0,_0,_0.1)] hover:font-semibold
+   hover:text-[#432E54] 
+}
+.shoe_card{
+   @apply mt-10 flex flex-wrap gap-4
+}
+.shoe{
+   @apply w-[400px] h-[230px] shadow-[0px_0px_7px_5px_rgba(0,_0,_0,_0.1)] rounded-xl py-4 px-3 flex gap-4 
+}
+.shoe_images{
+   @apply w-[190px] overflow-hidden h-[180px] bg-[#f7f7f8] rounded-xl transition-all duration-300 hover:shadow-[0px_0px_4px_2px_rgba(0,_0,_0,_0.1)]
+}
+.shoe_text{
+   @apply flex gap-3 flex-col pt-5
+}
+.shoe_text h2{
+   @apply text-[18px] font-semibold text-[#433878]
+}
+.shoe_text h3{
+   @apply text-[15px] font-medium text-gray-950
+}
+
+
+
+
+
+
+
+
+
+
+
